@@ -1,0 +1,5 @@
+need to install in order to play synthesized sound:
+pip install mingus
+brew install pyfluidsynth
+other requirements:
+pip install pretty_midi
