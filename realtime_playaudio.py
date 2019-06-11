@@ -7,7 +7,7 @@ from mingus.containers import Note
 import sys
 
 ACC_FILE = 'heyjude.mid'
-BPM = 74
+BPM = 60
 BPS = BPM/float(60) #beat per second
 original_begin = time.clock()
 
