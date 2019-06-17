@@ -1,5 +1,8 @@
-need to install in order to play synthesized sound:
-pip install mingus
-brew install pyfluidsynth
+need to reinstall:
+sudo pip uninstall fluidsynth
+Sudo pip uninstall pyfluidsynth
+pip install -Iv https://pypi.python.org/packages/source/p/pyFluidSynth/pyFluidSynth-1.2.4.tar.gz#md5=60079310701d0b9298b65a8b6728ffcc
+Detail please see
+https://stackoverflow.com/questions/20022160/pyfluidsynth-module-object-has-no-attribute-synth
 other requirements:
 pip install pretty_midi
